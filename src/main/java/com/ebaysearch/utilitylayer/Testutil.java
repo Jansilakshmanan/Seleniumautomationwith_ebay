@@ -1,6 +1,6 @@
-package com.gmail.utilitylayer;
+package com.ebaysearch.utilitylayer;
 
-import com.gmail.baselayer.Base;
+import com.ebaysearch.baselayer.Base;
 import org.openqa.selenium.JavascriptExecutor;
 
 public class Testutil extends Base {

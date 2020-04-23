@@ -1,11 +1,7 @@
-package com.gmail.baselayer;
+package com.ebaysearch.baselayer;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Base {
 
-    String path="C:\\Users\\user\\Desktop\\backup 12112019\\jansi_javafiles_2\\selenium_assignment\\src\\main\\java\\com\\gmail\\configlayer\\config.properties";
+    String path="C:\\Users\\user\\Desktop\\backup 12112019\\jansi_javafiles_2\\selenium_assignment\\src\\main\\java\\com\\ebaysearch\\configlayer\\config.properties";
    public static  Properties prop;
     public  static WebDriver driver;
 

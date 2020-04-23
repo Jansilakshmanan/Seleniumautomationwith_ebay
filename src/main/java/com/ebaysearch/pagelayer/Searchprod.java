@@ -1,7 +1,7 @@
-package com.gmail.pagelayer;
+package com.ebaysearch.pagelayer;
 
-import com.gmail.baselayer.Base;
-import com.gmail.utilitylayer.Testutil;
+import com.ebaysearch.baselayer.Base;
+import com.ebaysearch.utilitylayer.Testutil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
