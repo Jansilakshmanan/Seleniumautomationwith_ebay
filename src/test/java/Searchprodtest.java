@@ -1,5 +1,5 @@
-import com.gmail.baselayer.Base;
-import com.gmail.pagelayer.Searchprod;
+import com.ebaysearch.baselayer.Base;
+import com.ebaysearch.pagelayer.Searchprod;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;

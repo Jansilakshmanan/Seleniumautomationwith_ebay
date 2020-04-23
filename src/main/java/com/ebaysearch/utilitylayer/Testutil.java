@@ -1,12 +1,13 @@
-package com.ebay.Utilitylayer;
+package com.ebaysearch.utilitylayer;
 
-import com.ebay.Baselayer.TestBase;
+import com.ebaysearch.baselayer.Base;
 import org.openqa.selenium.JavascriptExecutor;
 
-public class Testutil extends TestBase {
+public class Testutil extends Base {
+
     public void scrolldownwithjs(int X,int Y)
     {
-        String jsscript=String.format("window.scrollBy(%d,%d)",X,Y);
+         String jsscript=String.format("window.scrollBy(%d,%d)",X,Y);
         JavascriptExecutor js=(JavascriptExecutor)driver;
         js.executeScript(jsscript);
     }
