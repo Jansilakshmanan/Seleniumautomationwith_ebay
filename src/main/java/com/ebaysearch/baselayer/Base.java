@@ -14,7 +14,7 @@ public class Base {
    public static  Properties prop;
     public  static WebDriver driver;
 
-public Base()
+public  void driver_init()
 {
 try {
 

@@ -21,15 +21,18 @@ public class Addtocart extends Base {
     @FindBy(xpath = "//*[@class='s-item__link']")
     List<WebElement> lstproducts;
 
-    Testutil util = new Testutil();
+   Testutil util = new Testutil();
+
 
     public Addtocart() {
+
 
         PageFactory.initElements(driver, this);
     }
 
 
     public void searchincategories( String Search_text, String Suggestionlist_item,  String color) throws InterruptedException {
+
 
         Select s = new Select(categorydrpdown);
         s.selectByVisibleText("All Categories");

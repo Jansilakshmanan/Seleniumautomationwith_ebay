@@ -14,11 +14,13 @@ public class Addtocarttest extends Base {
     Testutil util;
     Addtocart cart;
 
+
     public Addtocarttest()
     {
-        super();
+        driver_init();
         util=new Testutil();
-        cart=new Addtocart(); }
+        cart=new Addtocart();
+        }
 
     @BeforeMethod
     public void setup()
@@ -34,7 +36,9 @@ public class Addtocarttest extends Base {
         return data;
     }
     @Test(priority = 1, dataProvider = "gettestdata")
+
     public void searchincategories(String Test_desc, String Test_name, String Search_text, String Suggestionlist_item, String cartitem_no, String color, String quantity, String Bulk_savings) throws InterruptedException {
+      //   cart=new Addtocart();
                  cart.searchincategories(   Search_text,  Suggestionlist_item,   color);
     }
 
